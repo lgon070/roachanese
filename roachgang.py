@@ -1,6 +1,6 @@
 text = input("Text to translate to Roachanese: ")
 words = text.split(" ")
-special_chars = [".", "?", ",", ";", ":", "!"]
+special_chars = ['.', ',', ';', ':', '-', '_', '\'', '\"', '?', '!', '$', '%', '&', '*', '(', ')', '/', '\\']
 translated = []
 
 for word in words:
